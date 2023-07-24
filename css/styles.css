@@ -1,0 +1,62 @@
+body{
+    background: url(https://as1.ftcdn.net/v2/jpg/01/75/32/20/1000_F_175322092_6uiMTlVAfDVv7raMqwXWrqmzK3id7x93.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.6em;
+}
+/* Estilo para el contenedor principal */
+.card {
+    display: inline-block; /* Convertir el contenedor en un elemento en línea */
+    width: 100%; /* Asegurar que el contenedor ocupe todo el ancho disponible */
+    overflow: hidden;
+}
+
+/* Estilo para el texto */
+.card-body {
+    float: left; /* Colocar el texto a la izquierda */
+    width: 70%; /* Establecer el ancho del texto */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Estilo para la imagen */
+.card-img-top {
+    float: right; /* Colocar la imagen a la derecha */
+    width: 30%; /* Establecer el ancho de la imagen */
+    height: 20%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.card-img-top {
+    display: block; /* Convertir la imagen en un elemento en bloque */
+    margin-left: auto; /* Centrar horizontalmente la imagen */
+    margin-right: auto;
+    max-width: 100%;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+main {
+    background-color: rgb(0, 0, 0,0.05);
+}
+
+.row {
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+}
+
+.card.mb-4 {
+    border: 5px solid black;
+    border-radius: 30px;
+    height: 250px;
+}
+
+.card-img-top {
+    height: 150px;
+}
